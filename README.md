@@ -10,3 +10,4 @@ This project features an automated Courier Sorting System built using **OpenPLC 
 1. Download and open the [OpenPLC Editor](https://autonomylogic.com/).
 2. Clone or download this repository to your computer.
 3. In OpenPLC Editor, select **Open Project** and open the folder containing the `project.json` file.
+4. Open Panel Components layout in QElectroTech.
