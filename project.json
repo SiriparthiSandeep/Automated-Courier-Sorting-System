@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "name": "Sorting",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "globalVariableLists": [],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "name": "instance0",
+            "task": "task0",
+            "program": "main"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "FB_VFD": [
+          "Run_Cmd",
+          "Fault_OK",
+          "Target_Hz",
+          "VFD_Run",
+          "VFD_Trip",
+          "Speed_Raw"
+        ],
+        "main": [
+          "Start_PB",
+          "Stop_PB",
+          "Emergency_OK",
+          "PE_Entrance",
+          "System_Run",
+          "Camera_Rec",
+          "St1_Sig_Left",
+          "St1_Sig_Right",
+          "St1_Busy",
+          "St2_Busy",
+          "St1_Flag_Left",
+          "St1_Flag_Right",
+          "T_St1_Cam",
+          "Sol_St1_Left",
+          "St2_Sig_Left",
+          "Sol_Str1_Right",
+          "St2_Sig_Right",
+          "St2_Flag_Right",
+          "St2_Flag_Left",
+          "Sol_Str2_Left",
+          "Sol_Str2_Right",
+          "Conveyor_Run",
+          "New_Scan_Trigger10",
+          "_18001920",
+          "_18001921",
+          "_18001922",
+          "_18001923",
+          "New_Scan_Trigger11",
+          "New_Scan_Trigger20",
+          "New_Scan_Trigger22",
+          "St2_Timer_Left",
+          "New_Scan_Trigger21",
+          "St2_Timer_Right",
+          "St1_Timer_Left",
+          "St1_Timer_Right",
+          "St1_Busy_Timer",
+          "St2_Busy_Timer",
+          "St1_Left_CTU",
+          "St1_Left_PE",
+          "St1_Left_ResetPB",
+          "St1_Left_Lamp",
+          "St1_Right_PE",
+          "St1_Right_Lamp",
+          "St1_Right_ResetPB",
+          "St1_Right_CTU",
+          "St1_Left_Count",
+          "St1_Right_Count",
+          "St2_Left_PE",
+          "St2_Left_ResetPB",
+          "St2_Left_Lamp",
+          "St2_Right_Lamp",
+          "St2_Right_PE",
+          "St2_Right_ResetPB",
+          "St2_Right_Count",
+          "St2_Left_Count",
+          "St2_Right_Full",
+          "St1_Left_Full",
+          "St1_Right_Full",
+          "St2_Left_CTU",
+          "St2_Left_Full",
+          "St2_Right_CTU",
+          "VFD_Fault_OK",
+          "FB_VFD1",
+          "Do_VFD_Start",
+          "Alaram_VFD_Tripped",
+          "A0"
+        ]
+      }
+    }
+  }
+}
